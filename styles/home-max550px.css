@@ -3,6 +3,9 @@
     h1{
         font-size: 20px;
     }
+    nav a{
+        font-size: 10px;
+    }
 }
 @media (min-width: 501px ){
     h1{
