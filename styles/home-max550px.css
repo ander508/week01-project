@@ -6,9 +6,16 @@
     nav{
         display: flex;
         flex-direction: column;
+        gap: 20px;
+        padding: 10px;
     }
     nav a{
-        font-size: 10px;
+        font-size: 20px;
+        background-color: #d15656;
+        display: block;
+        width: 100vw;
+        text-align: center;
+
     }
 }
 @media (min-width: 501px ){
