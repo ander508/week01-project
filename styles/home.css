@@ -104,6 +104,16 @@ main{
     height: 250px;
 }
 
+.card ul{
+    padding: 30px;
+}
+.card ul li{
+    margin-bottom: 7px;
+}
+.card ul li a{
+    text-decoration: none;
+}
+
 footer{
     height: calc(10vh - 6px);
     background-color: #f08c8c;
