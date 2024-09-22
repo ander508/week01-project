@@ -83,6 +83,7 @@ main{
 .me p{
     overflow-y: scroll;
     height: 250px;
+    margin-right: 10px;
 }
 .card .city h2{
     background-color: white;
