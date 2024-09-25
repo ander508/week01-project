@@ -8,6 +8,7 @@
         <meta name="author" content="Oluchukwu Offor">
         <link rel="stylesheet" href="styles/home.css">
         <link rel="stylesheet" href="styles/home-max550px.css">
+        <script src="scripts/getdates.js" defer></script>
     </head>
     <body></body>
     <header>
@@ -23,7 +24,8 @@
         <section class="card">
             <h2>About Me</h2>
             <div class="me">
-                <p>Lorem, ipsum dolor sit 
+                <p>
+                    Lorem, ipsum dolor sit 
                     amet consectetur adipisicing elit.
                      Doloribus, iure! Lorem, ipsum dolor sit 
                      amet consectetur adipisicing elit.
@@ -39,14 +41,15 @@
                           amet consectetur adipisicing elit.
                            Doloribus, iure! Lorem, ipsum dolor sit 
                            amet consectetur adipisicing elit.
-                            Doloribus, iure!</p>
+                            Doloribus, iure!
+                </p>
                 <img src="images/profile.png" alt="Profile Image">
             </div>
             <div class="city">
                 <h2>Calabar, Nigeria.</h2>
                 <div class="flag-section">
                     <div class="flag">
-                        <img src="images/flag.jpg" alt="">
+                        <img src="images/flag.jpg" alt="Flag">
                         <p>Nigerian Official Flag.</p>
                     </div>
                     <p class="para">
@@ -68,23 +71,40 @@
                            amet consectetur adipisicing elit.
                             Doloribus, iure!
                     </p>
-                    
                 </div>
-
             </div>
-
         </section>
         <section class="card">
             <h2>Web Dev Resources</h2>
             <ul>
-                <li><a href="">Dev to Community</a></li>
-                <li><a href="">Smashing Magazine</a></li>
-                <li><a href="">CSS Tricks</a></li>
-                <li><a href="">W3 School</a></li>
-                <li><a href="">Udemy</a></li>
-                <li><a href="">Lorem Picsum Image Placeholder</a></li>
+                <li>
+                    <a href="">Dev to Community</a>
+                </li>
+                <li>
+                    <a href="">Smashing Magazine</a>
+                </li>
+                <li>
+                    <a href="">CSS Tricks</a>
+                </li>
+                <li>
+                    <a href="">W3 School</a>
+                </li>
+                <li>
+                    <a href="">Udemy</a>
+                </li>
+                <li>
+                    <a href="">Lorem Picsum Image Placeholder</a>
+                </li>
             </ul>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <p>
+            &copy;
+            <span id="currentYear"></span>
+            | Oluchukwu A. Offor
+            | Calabar, Nigeria.
+        </p>
+        <p id="lastModified"></p>
+    </footer>
 </html>
